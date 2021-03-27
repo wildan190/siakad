@@ -10,6 +10,7 @@ session_start();
 		//something was posted
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
+		
 
 		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
 		{
@@ -57,12 +58,31 @@ session_start();
 		border: none;
 	}
 
+	#button:hover{
+		background-color:blue;
+	}
+
 	#box{
 
 		background-color: grey;
 		margin: auto;
 		width: 300px;
 		padding: 20px;
+	}
+	.button{
+		float:left;
+		margin:0.5px;
+		padding:5px;
+		background-color:lightblue;
+		border:none;
+	}
+	.button:hover{
+		background-color:blue;
+	}
+
+	a{
+		color:white;
+		text-decoration:none;
 	}
 
 	</style>
@@ -72,12 +92,16 @@ session_start();
 		<form method="post">
 			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
 
-			<input id="text" type="text" name="user_name"><br><br>
-			<input id="text" type="password" name="password"><br><br>
-
+			
+			<input id="text" type="text" name="user_name" placeholder = "Insert username"><br><br>	
+			<input id="text" type="password" name="password" placeholder = "Insert your password"><br><br>
 			<input id="button" type="submit" value="Signup"><br><br>
 
-			<a href="login.php">Click to Login</a><br><br>
+			<button class = "button">
+			<a href="login.php">Click to Login</a>
+			</button>
+			
+			<br><br>
 		</form>
 	</div>
 </body>

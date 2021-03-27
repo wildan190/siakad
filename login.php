@@ -12,6 +12,7 @@ session_start();
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
 		
+		
 
 		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
 		{
@@ -114,9 +115,9 @@ session_start();
 
 			<input id="button" type="submit" value="Login"><br><br>
 
-			<center><button class = "button">
+			<button class = "button">
 			<a href="signup.php">Click to Signup</a>
-			</button></center>
+			</button>
 			<br><br>
 			
 		</form>
