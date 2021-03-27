@@ -144,27 +144,27 @@
 	    <form method="post" action="">
 	    	<div class="form-group">
 	    		<label>Kode Matkul</label>
-	    		<input type="text" name="tkd_mkul" value="<?=@$vkd_mkul?>" class="form-control" placeholder="Input Nama Depan anda disini!" required>
+	    		<input type="text" name="tkd_mkul" value="<?=@$vkd_mkul?>" class="form-control" placeholder="Kode Matkul" required>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>Mata Kuliah</label>
-	    		<input type="text" name="tnama_mkul" value="<?=@$vnama_mkul?>" class="form-control" placeholder="Input Nama belakang anda disini!" required>
+	    		<input type="text" name="tnama_mkul" value="<?=@$vnama_mkul?>" class="form-control" placeholder="Mata Kuliah" required>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>KD Dosen</label>
-	    		<textarea class="form-control" name="tkd_dosen"  placeholder="Input Alamat anda disini!"><?=@$vkd_dosen?></textarea>
+	    		<textarea class="form-control" name="tkd_dosen"  placeholder="DOsen"><?=@$vkd_dosen?></textarea>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>Jam</label>
-	    		<textarea class="form-control" name="tjam"  placeholder="Input Tempat Tanggal Lahir anda disini!"><?=@$vjam?></textarea>
+	    		<textarea class="form-control" name="tjam"  placeholder="Jam"><?=@$vjam?></textarea>
 	    	</div>
 			<div class="form-group">
 	    		<label>Ruang Kelas</label>
-	    		<textarea class="form-control" name="truang_kelas"  placeholder="Input Alamat anda disini!"><?=@$vruang_kelas?></textarea>
+	    		<textarea class="form-control" name="truang_kelas"  placeholder="Ruang Kelas"><?=@$vruang_kelas?></textarea>
 	    	</div>
 			<div class="form-group">
 	    		<label>Jumlah Mahasiswa</label>
-	    		<textarea class="form-control" name="tjumlah_mhs"  placeholder="Input Tempat Tanggal Lahir anda disini!"><?=@$vjumlah_mhs?></textarea>
+	    		<textarea class="form-control" name="tjumlah_mhs"  placeholder="Input Jumlah Mahasiswa"><?=@$vjumlah_mhs?></textarea>
 	    	</div>
 			
 			<div class="form-group">
