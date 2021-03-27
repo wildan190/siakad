@@ -73,6 +73,9 @@ session_start();
 		background-color: lightblue;
 		border: none;
 	}
+	#button:hover{
+		background-color:blue;
+	}
 
 	#box{
 
@@ -81,6 +84,23 @@ session_start();
 		width: 300px;
 		padding: 20px;
 	}
+	.button{
+		float:left;
+		margin:0.5px;
+		padding:5px;
+		background-color:lightblue;
+		border:none;
+	}
+	.button:hover{
+		background-color:blue;
+	}
+
+	a{
+		color:white;
+		text-decoration:none;
+	}
+
+	
 
 	</style>
 
@@ -94,7 +114,11 @@ session_start();
 
 			<input id="button" type="submit" value="Login"><br><br>
 
-			<a href="signup.php">Click to Signup</a><br><br>
+			<center><button class = "button">
+			<a href="signup.php">Click to Signup</a>
+			</button></center>
+			<br><br>
+			
 		</form>
 	</div>
 </body>
