@@ -169,7 +169,7 @@
 			
 			<div class="form-group">
 	    		<label>Tanggal Mulai</label>
-	    		<input type="text" class="form-control datepicker" name="ttanggal_mulai" require><?=@$vtanggal_mulai?></textarea>
+	    		<textarea type="text" class="form-control datepicker" name="ttanggal_mulai" require><?=@$vtanggal_mulai?></textarea>
 	    	</div>
 
 			
@@ -240,7 +240,7 @@
 	
 	<br />
 	<center>
-	<button type = "logout" class="btn btn-danger"><a href="logout.php"</a>Logout</button>
+	<button type = "logout" class="btn btn-danger"><a style = "text-decoration:none; color:white;" href="logout.php"</a>Logout</button>
 	</center>
 
 </div>
