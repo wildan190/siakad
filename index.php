@@ -123,6 +123,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv = "x-UA-Compatible" content="IE=edge, chrome=1">
     <meta name = "HandleFriendly" content = "true">
+	<link rel="shortcut icon" type="image/x-icon" href="favico.ico" />
 	<title>SISTEM INFORMASI AKADEMIK</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -152,7 +153,7 @@
 	    	</div>
 	    	<div class="form-group">
 	    		<label>KD Dosen</label>
-	    		<textarea class="form-control" name="tkd_dosen"  placeholder="DOsen"><?=@$vkd_dosen?></textarea>
+	    		<textarea class="form-control" name="tkd_dosen"  placeholder="Dosen"><?=@$vkd_dosen?></textarea>
 	    	</div>
 	    	<div class="form-group">
 	    		<label>Jam</label>

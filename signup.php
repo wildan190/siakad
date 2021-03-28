@@ -25,7 +25,7 @@ session_start();
 			die;
 		}else
 		{
-			echo "Please enter some valid information!";
+			echo "Username harus dengan Nama dan Karakter Numerik!!!";
 		}
 	}
 ?>
@@ -36,6 +36,7 @@ session_start();
 <html lang="en" dir="ltr">
   <head>
 	<title>Signup SIA</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favico.ico" />
     <meta charset="utf-8">
   </head>
 <body>
@@ -193,7 +194,7 @@ session_start();
     			<input type="submit" value="Signup">
 			</div>
 			<div class="signup-link">
-			Already Account? <a href="login.php">Login now</a></div>
+			Already have account? <a href="login.php">Login now</a></div>
 		</form>
 	</div>
 </body>

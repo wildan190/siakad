@@ -52,6 +52,7 @@ session_start();
 
 <html lang="en" dir="ltr">
   <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favico.ico" />
 	<title>LOGIN to SIA</title>
     <meta charset="utf-8">
   </head>
