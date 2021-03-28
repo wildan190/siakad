@@ -25,7 +25,10 @@ session_start();
 			die;
 		}else
 		{
-			echo "Username harus dengan Nama dan Karakter Numerik!!!";
+			echo "<script>
+						alert('Username harus dengan sebuah kata dan Numerik !!!!');
+						document.location='login.php';
+				     </script>";
 		}
 	}
 ?>

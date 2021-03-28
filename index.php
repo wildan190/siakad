@@ -170,7 +170,7 @@
 			
 			<div class="form-group">
 	    		<label>Tanggal Mulai</label>
-	    		<textarea type="text" class="form-control datepicker" name="ttanggal_mulai" require><?=@$vtanggal_mulai?></textarea>
+	    		<input type="text" class="form-control datepicker" name="ttanggal_mulai" require><?=@$vtanggal_mulai?></textarea>
 	    	</div>
 
 			

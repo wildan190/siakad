@@ -38,10 +38,16 @@ session_start();
 				}
 			}
 			
-			echo "wrong username or password!";
+			echo "<script>
+						alert('Wrong Username or Password');
+						document.location='login.php';
+				     </script>";
 		}else
 		{
-			echo "wrong username or password!";
+			echo "<script>
+						alert('Wrong Username or Password');
+						document.location='login.php';
+				     </script>";
 		}
 	}
 
